@@ -1,0 +1,21 @@
+.block {
+  padding: 50px;
+  border: blue ;
+  margin: 5px;
+}
+
+#redBlock {
+  background-color: red;
+}
+
+#blueBlock {
+  background-color: blue;
+}
+
+#greenBlock {
+  background-color: green;
+}
+
+#yellowBlock {
+  background-color: yellow;
+}
