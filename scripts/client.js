@@ -17,6 +17,7 @@ function onReady() {
 function addBlock () {
   console.log(this);
   
+  //add a row
   $('table').last('tr').append(`<tr>
   <td><div class="block invisible red"></div></td>
       <td><div class="block invisible blue"></div></td>
@@ -24,7 +25,7 @@ function addBlock () {
       <td><div class="block invisible yellow"></div></td>
     </tr>`);
   
-  
+  //find the first invisible block and make it visible
   if ($(this).is('#btnRedAdd')) {
     console.log('this is the red button');
     toggleBlock.call( $ ('.red.invisible').first());
