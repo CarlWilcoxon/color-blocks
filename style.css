@@ -3,25 +3,26 @@
   padding: 50px;
 }
 
+
 table, th, td {
   border: 1px solid black;
   padding: 4px;
   empty-cells: show;
 }
 
-#redBlock {
+.red {
   background-color: red;
 }
 
-#blueBlock {
+.blue {
   background-color: blue;
 }
 
-#greenBlock {
+.green {
   background-color: green;
 }
 
-#yellowBlock {
+.yellow {
   background-color: yellow;
 }
 
