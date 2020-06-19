@@ -7,13 +7,6 @@ let yellowCount = 0;
 
 $(document).ready(onReady);
 
-function onReady() {
-  console.log('DOM ready');
-  $('button').on('click', addBlock);
-  $('table').on('click', '.block', toggleBlock);
-  
-}
-
 function addBlock () {
   console.log(this);
   
@@ -43,9 +36,13 @@ function addBlock () {
   updateColorCount();
 }
 
-function findNext() {
+function onReady() {
+  console.log('DOM ready');
+  $('button').on('click', addBlock);
+  $('table').on('click', '.block', toggleBlock);
   
 }
+
 function toggleBlock() {
   console.log(this);
   if ($(this).hasClass('red')) {
