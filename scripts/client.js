@@ -27,7 +27,16 @@ function addBlock () {
   
   if ($(this).is('#btnRedAdd')) {
     console.log('this is the red button');
-    findNext();
+    toggleBlock.call( $ ('.red.invisible').first());
+  }  else if ($(this).is('#btnBlueAdd')) {
+    console.log('this is the blue button');
+    toggleBlock.call( $ ('.blue.invisible').first());
+  }  else if ($(this).is('#btnGreenAdd')) {
+    console.log('this is the green button');
+    toggleBlock.call( $ ('.green.invisible').first());
+  }  else if ($(this).is('#btnYellowAdd')) {
+    console.log('this is the yellow button');
+    toggleBlock.call( $ ('.yellow.invisible').first());
   }
   
   updateColorCount();
