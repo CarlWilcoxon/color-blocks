@@ -3,6 +3,12 @@
   padding: 50px;
 }
 
+table, th, td {
+  border: 1px solid black;
+  padding: 4px;
+  empty-cells: show;
+}
+
 #redBlock {
   background-color: red;
 }
@@ -17,4 +23,8 @@
 
 #yellowBlock {
   background-color: yellow;
+}
+
+.invisible {
+  background-color: transparent !important;
 }

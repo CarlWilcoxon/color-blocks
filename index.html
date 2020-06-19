@@ -9,18 +9,25 @@
   <title>Color Blocks</title>
 </head>
 <body>
+  <h3>Totals:</h3>
   <table>
     <thead>
-      <td><button>Red</button></td>
-      <td><button>Blue</button></td>
-      <td><button>Green</button></td>
-      <td><button>Yellow</button></td>
+      <td><div id="redSum">0</div></td>
+      <td><div id="blueSum">0</div></td>
+      <td><div id="greenSum">0</div></td>
+      <td><div id="yellowSum">0</div></td>
     </thead>
     <tr>
-      <td><div class="block" id="redBlock"></div></td>
-      <td><div class="block" id="blueBlock"></div></td>
-      <td><div class="block" id="greenBlock"></div></td>
-      <td><div class="block" id="yellowBlock"></div></td>
+      <td><button id="btnRedAdd">Red</button></td>
+      <td><button id="btnBlueAdd">Blue</button></td>
+      <td><button id="btnGreenAdd">Green</button></td>
+      <td><button id="btnYellowAdd">Yellow</button></td>
+    </tr>
+    <tr>
+      <td><div class="block invisible" id="redBlock"></div></td>
+      <td><div class="block invisible" id="blueBlock"></div></td>
+      <td><div class="block invisible" id="greenBlock"></div></td>
+      <td><div class="block invisible" id="yellowBlock"></div></td>
     </tr>
   </table>
 </body>
